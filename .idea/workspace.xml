@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5245cda-c9ca-4826-89f4-0ed98d79902c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicAlgorithms/problem_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicAlgorithms/problem_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicAlgorithms/problem_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicAlgorithms/problem_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicAlgorithms/problem_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicAlgorithms/problem_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicAlgorithms/problem_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicAlgorithms/problem_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicAlgorithms/problem_4.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +15,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BasicAlgorithms/problem_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BasicAlgorithms/problem_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,10 +60,10 @@
         <option value="$PROJECT_DIR$/BasicAlgorithms/problem_1.py" />
         <option value="$PROJECT_DIR$/BasicAlgorithms/problem_2.py" />
         <option value="$PROJECT_DIR$/BasicAlgorithms/problem_3.py" />
-        <option value="$PROJECT_DIR$/BasicAlgorithms/problem_4.py" />
         <option value="$PROJECT_DIR$/BasicAlgorithms/problem_6.py" />
         <option value="$PROJECT_DIR$/BasicAlgorithms/problem_7.py" />
         <option value="$PROJECT_DIR$/BasicAlgorithms/problem_5.py" />
+        <option value="$PROJECT_DIR$/BasicAlgorithms/problem_4.py" />
       </list>
     </option>
   </component>
@@ -84,8 +97,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.problem_1">
+  <component name="RunManager" selected="Python.problem_4">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,10 +247,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem_4" />
         <item itemvalue="Python.problem_1" />
         <item itemvalue="Python.problem_2" />
         <item itemvalue="Python.problem_3" />
-        <item itemvalue="Python.problem_4" />
         <item itemvalue="Python.problem_6" />
       </list>
     </recent_temporary>
@@ -257,8 +270,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1291" y="28" width="1269" height="1331" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25020376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2583537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -267,7 +281,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33091202" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33091202" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicAlgorithms/problem_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicAlgorithms/problem_5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -382,6 +389,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicAlgorithms/problem_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
