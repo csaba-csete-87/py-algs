@@ -20,6 +20,7 @@ def test_function(test_case):
     else:
         print("Fail")
 
+
 test_case1 = [[4, 6, 2, 5, 9, 8], [964, 852]]
 test_function(test_case1)
 test_case2 = [[1, 2, 3, 4, 5], [542, 31]]

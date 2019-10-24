@@ -53,5 +53,5 @@ for word in wordList:
 
 print(my_trie.find("f").suffixes())
 
-#Todo: case when prefix is not in trie
-#Todo: case when inserting empty or None
+# Todo: case when prefix is not in trie
+# Todo: case when inserting empty or None
