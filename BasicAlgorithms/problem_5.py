@@ -1,4 +1,3 @@
-## Represents a single node in the Trie
 class TrieNode:
     def __init__(self):
         self.is_word = False
@@ -9,13 +8,18 @@ class TrieNode:
             node = TrieNode()
             self.children[char] = node
 
-    def suffixes(self, suffix=''):
-        ## Recursive function that collects the suffix for
-        ## all complete words below this point
-        pass
+    def suffixes(self):
+        result = []
+        for key in self.children:
+            node = self.children[key]
+            suffixes = node.suffixes()
+            if node.is_word:
+                result.append(key)
+            for s in suffixes:
+                result.append(key + s)
+        return result
 
 
-## The Trie itself containing the root node and insert/find functions
 class Trie:
     def __init__(self):
         self.root = TrieNode()
@@ -29,17 +33,25 @@ class Trie:
         current_node.is_word = True
 
     def find(self, prefix):
-        ## Find the Trie node that represents this prefix
-        pass
+        node = self.root
+        for i in range(0, len(prefix)):
+            char = prefix[i]
+            node = node.children[char]
+
+        return node
 
 
 my_trie = Trie()
 wordList = [
     "ant", "anthology", "antagonist", "antonym",
-    "fun", "function", "factory",
+    "fun",
+    "function", "factory",
     "trie", "trigger", "trigonometry", "tripod"
 ]
 for word in wordList:
     my_trie.insert(word)
 
-print(my_trie.find("f"))
+print(my_trie.find("f").suffixes())
+
+#Todo: case when prefix is not in trie
+#Todo: case when inserting empty or None
