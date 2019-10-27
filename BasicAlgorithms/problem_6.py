@@ -1,16 +1,16 @@
 def get_min_max(ints):
+    if not ints:
+        return (None, None)
     min = None
     max = None
-    if not ints:
-        return (min, max)
     for i in range(0, len(ints)):
         crt = ints[i]
-        if min == None:
+        if not min:
             min = crt
         elif crt < min:
             min = crt
 
-        if max == None:
+        if not max:
             max = crt
         elif crt > max:
             max = crt

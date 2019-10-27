@@ -55,15 +55,26 @@ def test_function(test_case):
     else:
         print("Fail")
 
-print()
-test_function([[6, 7, 8, 9, 10, 1, 2, 3, 4], 6])
-test_function([[6, 7, 8, 9, 10, 1, 2, 3, 4], 1])
-test_function([[6, 7, 8, 1, 2, 3, 4], 8])
-test_function([[6, 7, 8, 1, 2, 3, 4], 1])
-test_function([[6, 7, 8, 1, 2, 3, 4], 10])
-test_function([[1, 1, 1, 1, 1, 1, 1], 0])
-test_function([[1, 1, 1, 1, 1, 0, 0], 1])
-test_function([[5, 6, 1, 2, 3, 4], None])
-test_function([[5, 6, 1, 2, 3, 4], "x"])
-test_function([[], 1])
-test_function([["c", "a", "b"], 1])
+
+print(rotated_array_search([6, 7, 8, 9, 10, 1, 2, 3, 4], 6))
+# Should print 0
+print(rotated_array_search([6, 7, 8, 9, 10, 1, 2, 3, 4], 1))
+# Should print 5
+print(rotated_array_search([6, 7, 8, 1, 2, 3, 4], 8))
+# Should print 2
+print(rotated_array_search([6, 7, 8, 1, 2, 3, 4], 1))
+# Should print 3
+print(rotated_array_search([6, 7, 8, 1, 2, 3, 4], 10))
+# Should print -1
+print(rotated_array_search([1, 1, 1, 1, 1, 1, 1], 0))
+# Should print -1
+print(rotated_array_search([1, 1, 1, 1, 1, 0, 0], 1))
+# Should print 0
+print(rotated_array_search([5, 6, 1, 2, 3, 4], None))
+# Should print -1
+print(rotated_array_search([5, 6, 1, 2, 3, 4], "x"))
+# Should print -1
+print(rotated_array_search([], 1))
+# Should print -1
+print(rotated_array_search(["c", "a", "b"], 1))
+# Should print -1

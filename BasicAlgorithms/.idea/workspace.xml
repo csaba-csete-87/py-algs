@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="205a4df4-3c0c-47e1-b9e8-7a5568aeeb59" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/explanation_1.md" afterPath="$PROJECT_DIR$/explanation_1.md" />
+      <change beforePath="$PROJECT_DIR$/explanation_2.md" afterPath="$PROJECT_DIR$/explanation_2.md" />
       <change beforePath="$PROJECT_DIR$/problem_2.py" afterPath="$PROJECT_DIR$/problem_2.py" />
-      <change beforePath="$PROJECT_DIR$/problem_4.py" afterPath="$PROJECT_DIR$/problem_4.py" />
+      <change beforePath="$PROJECT_DIR$/problem_3.py" afterPath="$PROJECT_DIR$/problem_3.py" />
       <change beforePath="$PROJECT_DIR$/problem_5.py" afterPath="$PROJECT_DIR$/problem_5.py" />
       <change beforePath="$PROJECT_DIR$/problem_6.py" afterPath="$PROJECT_DIR$/problem_6.py" />
-      <change beforePath="$PROJECT_DIR$/problem_7.py" afterPath="$PROJECT_DIR$/problem_7.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +20,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="problem_2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="problem_7.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problem_7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problem_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            <state relative-caret-position="1200">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem_3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problem_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem_4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problem_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem_5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problem_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem_6.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problem_6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,13 +94,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/problem_1.py" />
-        <option value="$PROJECT_DIR$/problem_3.py" />
         <option value="$PROJECT_DIR$/problem_4.py" />
-        <option value="$PROJECT_DIR$/problem_5.py" />
         <option value="$PROJECT_DIR$/problem_5.ipynb" />
-        <option value="$PROJECT_DIR$/problem_6.py" />
         <option value="$PROJECT_DIR$/problem_7.py" />
         <option value="$PROJECT_DIR$/problem_2.py" />
+        <option value="$PROJECT_DIR$/problem_3.py" />
+        <option value="$PROJECT_DIR$/problem_5.py" />
+        <option value="$PROJECT_DIR$/problem_6.py" />
       </list>
     </option>
   </component>
@@ -113,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.problem_2">
+  <component name="RunManager" selected="Python.problem_6">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -191,7 +242,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="problem_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="problem_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -203,7 +254,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BasicAlgorithms" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,19 +354,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.BasicAlgorithms" />
-      <item index="1" class="java.lang.String" itemvalue="Python.problem_5" />
-      <item index="2" class="java.lang.String" itemvalue="Python.problem_6" />
-      <item index="3" class="java.lang.String" itemvalue="Python.problem_7" />
-      <item index="4" class="java.lang.String" itemvalue="Python.problem_1" />
-      <item index="5" class="java.lang.String" itemvalue="Python.problem_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.problem_6" />
+      <item index="2" class="java.lang.String" itemvalue="Python.problem_7" />
+      <item index="3" class="java.lang.String" itemvalue="Python.problem_1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.problem_2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.problem_3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.problem_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.problem_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.problem_7" />
-        <item index="3" class="java.lang.String" itemvalue="Python.problem_6" />
-        <item index="4" class="java.lang.String" itemvalue="Python.problem_5" />
+        <item index="0" class="java.lang.String" itemvalue="Python.problem_6" />
+        <item index="1" class="java.lang.String" itemvalue="Python.problem_3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.problem_2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.problem_1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.problem_7" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +397,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13262343" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42013553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42013553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -371,13 +422,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_7.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
@@ -440,47 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problem_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="93" column="10" lean-forward="false" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problem_5.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,8 +501,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -51,6 +51,7 @@ test_case2 = [1, 2, 3, 4, 5]
 test_case3 = [0, 0, 0, 1, 1, 1]
 test_case4 = [0, 0, 1, 1, 1]
 test_case5 = [0, 0, 0, 1, 1]
+test_case6 = [0, 0, 0, 0, 0]
 
 print(rearrange_digits(test_case1))
 # Should print [852, 964]
@@ -62,3 +63,5 @@ print(rearrange_digits(test_case4))
 # Should print [110, 10]
 print(rearrange_digits(test_case5))
 # Should print [100, 10]
+print(rearrange_digits(test_case6))
+# Should print [0, 0]
