@@ -18,12 +18,18 @@ def get_min_max(ints):
     return (min, max)
 
 
-## Example Test Case of 100 Integers
+## Example Test Case of 1000 Integers
 import random
 
-l = [i for i in range(0, 100)]  # a list containing 0 - 9
+l = [i for i in range(0, 1000)]  # a list containing 0 - 999
 random.shuffle(l)
-
-print ("Pass" if ((0, 99) == get_min_max(l)) else "Fail")
-print ("Pass" if ((None, None) == get_min_max([])) else "Fail")
-print ("Pass" if ((None, None) == get_min_max(None)) else "Fail")
+print(get_min_max(l))
+# prints (0, 999)
+print(get_min_max([]))
+# prints (None, None)
+print(get_min_max(None))
+# prints (None, None)
+print(get_min_max([1, 1, 1, 1, 1]))
+# prints (1, 1)
+print(get_min_max([1]))
+# prints (1, 1)

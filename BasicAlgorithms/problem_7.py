@@ -62,15 +62,16 @@ class Router:
         return paths
 
 
+print("Test Case 1")
 # Here are some test cases and expected outputs you can use to test your implementation
 # create the router and add a route
 router = Router("Root", "404 - Page Not Found")  # remove the 'not found handler' if you did not implement this
 router.add_handler("/home/about", "About Page")  # add a route
 
 # some lookups with the expected output
+print(router.lookup(None))  # should print 'root handler'
 print(router.lookup(""))  # should print 'root handler'
 print(router.lookup("/"))  # should print 'root handler'
-print(router.lookup("/////"))  # should print 'root handler'
 print(router.lookup("/home"))  # should print 'not found handler' or None if you did not implement one
 print(router.lookup("/home/contact"))  # should print 'not found handler' or None if you did not implement one
 print(router.lookup("/login"))  # should print 'not found handler' or None if you did not implement one
@@ -78,3 +79,33 @@ print(router.lookup("/home/about"))  # should print 'about handler'
 print(router.lookup("/home/about/"))  # should print 'about handler' or None if you did not handle trailing slashes
 print(router.lookup("/home/about/////"))  # should print 'about handler' or None if you did not handle trailing slashes
 print(router.lookup("/home/about/me"))  # should print 'not found handler' or None if you did not implement one
+
+print("")
+print("Test Case 2")
+
+routerOnlineShopping = Router("Home", "404 - Page Not Found")
+routerOnlineShopping.add_handler("/men", "Men's")
+routerOnlineShopping.add_handler("/men/shoes", "Men's Shoes")
+routerOnlineShopping.add_handler("/men/clothing", "Men's Clothing")
+routerOnlineShopping.add_handler("/men/accessories", None)
+routerOnlineShopping.add_handler("/women", "Women's")
+routerOnlineShopping.add_handler("/women/shoes", "Women's Shoes")
+routerOnlineShopping.add_handler("/women/clothing", "Women's Clothing")
+
+print(routerOnlineShopping.lookup("/men"))
+# Should print Men's
+print(routerOnlineShopping.lookup("/men/"))
+# Should print Men's
+print(routerOnlineShopping.lookup("/men/accessories"))
+# Should not found handler
+print(routerOnlineShopping.lookup("/"))
+# Should print Home
+
+print("")
+print("Test Case 3")
+
+emptyRouter = Router("Root", "404 - Page Not Found")
+print(emptyRouter.lookup("/"))
+# Should print Root
+print(emptyRouter.lookup("/contact"))
+# Should print 404 - Page Not Found
